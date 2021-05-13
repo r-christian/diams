@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="diams:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>diams</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="diams-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="diams:war exploded" />
+    </root>
+  </artifact>
+</component>
